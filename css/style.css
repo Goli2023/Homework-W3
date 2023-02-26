@@ -91,3 +91,23 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width:800px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .image-app {
+    display: none;
+  }
+
+  .contact-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
